@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Anos de Casamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="musica" autoplay loop>
+        <source src="audio/musica.mp3" type="audio/mp3">
+    </audio>
+
+    <h1 class="fade-in">💖 Bem-vinda ao nosso site e algumas das nossas incríveis memórias!</h1>
+    
+    <div class="carrossel fade-in">
+        <img src="imgs/img.jpg" alt="Casal">
+        <img src="imgs/img2.jpg" alt="Casal">
+        <img src="imgs/img3.jpg" alt="Casal">
+        <img src="imgs/img4.jpg" alt="Casal">
+        <img src="imgs/img5.jpg" alt="Casal">
+        <img src="imgs/img6.jpg" alt="Casal">
+    </div>
+
+    <h1>💖 Estamos juntos há exatamente:</h1>
+    <p>Para você sempre lembrar o quão importante você é na minha vida 💖</p>
+    <div id="contador">
+        <div><span id="anos">0</span> anos</div>
+        <div><span id="meses">0</span> meses</div>
+        <div><span id="dias">0</span> dias</div>
+        <div><span id="horas">0</span> horas</div>
+        <div><span id="minutos">0</span> minutos</div>
+        <div><span id="segundos">0</span> segundos</div>
+    </div>
+    <button id="toggle-musica">🔊 Pausar Música</button>
+    <label for="volume">🎚️ Volume:</label>
+    <input type="range" id="volume" min="0" max="1" step="0.1" value="0.2">
+    <script src="script.js"></script>
+</body>
+</html>
